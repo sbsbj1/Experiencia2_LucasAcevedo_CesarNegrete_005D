@@ -1,3 +1,36 @@
-a{
-    color: #8E7DBE;
+body {
+    /* background-color: #efefef !important; */
+    background-image: url('./img/dog_and_cat_pattern-11.jpg') !important;
 }
+
+#navbar a{
+    color: #2d898b;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.nav-link {
+    border-bottom: 5px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 5px solid #2d848a;
+}
+
+ .carousel {
+    max-width: 80%;
+    max-height: 60em;
+    margin: 0 auto;
+} 
+
+.carousel-indicators {
+    width: auto;
+    margin: 0 auto;
+}
+

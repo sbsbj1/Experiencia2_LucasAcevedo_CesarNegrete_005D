@@ -13,7 +13,9 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #D6FFF6;">
+    <!-- N A V B A R -->
+
+    <nav class="navbar navbar-expand-lg navbar-light p-4" style="background-color: #e3f2fd;"  id="navbar">
         <div class="container-fluid">
           <img src="./img/1-.jpeg" alt="" width="50" height="44" class="d-inline-block align-text-top">
           <!--<a class="navbar-brand" href="#">Navbar</a> -->
@@ -23,28 +25,52 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Accesorios</a>
+                <a class="nav-link" href="#">Adopcion</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Conocenos</a>
+                <a class="nav-link" href="galeria.html">Galeria de fotos</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Adopcion  
+                  Mas informacion  
                 </a>  <!-- agregar tildes -->
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="somos.html">Quienes somos?</a></li>
+                  <li><a class="dropdown-item" href="#">Unete a nuestra comunidad!</a></li>
+                  <li><a class="dropdown-item" href="#">Como adoptar?</a></li>
                 </ul>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
+      <!-- C A R O U S E L -->
+      
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/pexels-mareks-steins-1560666.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/pexels-muhannad-alatawi-58997.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/pexels-pegli-zhu-976710.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
