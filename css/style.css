@@ -1,6 +1,9 @@
+
+
 body {
-    /* background-color: #efefef !important; */
-    background-image: url('./img/dog_and_cat_pattern-11.jpg') !important;
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #e8f6ff !important;  
+    /*     background-image: url('img/fondo.jpg') !important;*/
 }
 
 #navbar a{
@@ -9,11 +12,11 @@ body {
     font-weight: bold;
 }
 
-.navbar {
+/* .navbar {
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
-}
+} */
 
 .nav-link {
     border-bottom: 5px solid transparent;
@@ -25,7 +28,7 @@ body {
 
  .carousel {
     max-width: 80%;
-    max-height: 60em;
+    max-height: fit-content;
     margin: 0 auto;
 } 
 
@@ -33,4 +36,10 @@ body {
     width: auto;
     margin: 0 auto;
 }
+
+#video {
+    margin:0 auto;
+}
+
+
 
