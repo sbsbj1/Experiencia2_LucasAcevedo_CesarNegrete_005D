@@ -41,5 +41,21 @@ body {
     margin:0 auto;
 }
 
+footer {
+    background: #1b2a4e;
+    margin-bottom: auto;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 30px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
 
 
