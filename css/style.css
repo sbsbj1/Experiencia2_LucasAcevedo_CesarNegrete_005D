@@ -57,5 +57,28 @@ footer p {
     color: #f3f3f3;
 }
 
+iframe{
+    text-align: center;
+}
 
+.-Yovideoutbe{
 
+    
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.-Yovideoutbe iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.youbepop{
+    border:3px #076ead;
+    width: 60%;
+    margin:auto;
+}
