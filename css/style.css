@@ -82,3 +82,11 @@ iframe{
     width: 60%;
     margin:auto;
 }
+
+.card {
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
