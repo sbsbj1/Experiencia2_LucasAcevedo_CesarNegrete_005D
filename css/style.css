@@ -19,23 +19,23 @@ body {
 } */
 
 .nav-link {
-    border-bottom: 5px solid transparent;
+    border-bottom: 1px solid transparent;
 }
 
 .nav-link:hover {
-    border-bottom: 5px solid #2d848a;
+    border-bottom: 1px solid #2d848a;
 }
 
- .carousel {
-    max-width: 80%;
+/*  .carousel {
+    max-width: 80%; 
     max-height: fit-content;
     margin: 0 auto;
-} 
+}  */
 
-.carousel-indicators {
+/* .carousel-indicators {
     width: auto;
     margin: 0 auto;
-}
+} */
 
 #video {
     margin:0 auto;
