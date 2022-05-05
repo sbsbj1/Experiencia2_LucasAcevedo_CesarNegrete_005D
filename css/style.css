@@ -102,3 +102,8 @@ iframe{
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
 }
 
+.NombreC{
+    padding: 0 8px;
+    font-size: 30px;
+
+}
