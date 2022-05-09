@@ -17,7 +17,7 @@
     <title>Petsy</title>
 
 
-
+    
     <script type="text/javascript"> 
       function limpiar() {
         document.getElementById('miCalculadora').reset();
@@ -86,6 +86,11 @@
           </div>
         </div>
       </nav>
+      <br>
+
+      <h1 class="text-center mt-3">Calculadora</h1> 
+      <br>
+
 
       <div class="container-fluid mt-5 center-align">
         <form  name="calculadora" id="miCalculadora">
@@ -102,11 +107,16 @@
               <h3>Resultado: <h2 id="resultado"></h2></h3>
           </div>
 
-          <button type="button" onclick="sumar();" class="btn btn-primary">Sumar</button>
-          <button type="button" onclick="restar();" class="btn btn-primary">Restar</button>
-          <button type="button" onclick="multiplicar();" class="btn btn-primary">Multiplicar</button>
-          <button type="button" onclick="dividir();" class="btn btn-primary">Dividir</button>
-          <button type="button" onclick="limpiar();" class="btn btn-danger">Limpiar todo</button>
+          <div class="container-fluid mb-3">
+            <button type="button" onclick="sumar();" class="btn btn-primary">Sumar</button>
+            <button type="button" onclick="restar();" class="btn btn-primary">Restar</button>
+            <button type="button" onclick="multiplicar();" class="btn btn-primary">Multiplicar</button>
+            <button type="button" onclick="dividir();" class="btn btn-primary">Dividir</button>
+            <br>
+            <br>
+            <button type="button" onclick="limpiar();" class="btn btn-danger">Limpiar todo</button>
+          </div>
+
 
         </form>
 
